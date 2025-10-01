@@ -84,11 +84,11 @@ const Accommodations = () => {
 
                 {/* Content */}
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                     {accommodation.title}
                   </h3>
-                  <p className="text-amber-400 font-bold text-xl mb-4">{accommodation.price}</p>
-                  <p className="text-gray-300 mb-6 line-clamp-3">{accommodation.description}</p>
+                  <p className="text-blue-600 font-bold text-xl mb-4">{accommodation.price}</p>
+                  <p className="text-gray-700 mb-6 line-clamp-3">{accommodation.description}</p>
                   
                   {/* Features */}
                   <div className="grid grid-cols-2 gap-2 mb-6">
