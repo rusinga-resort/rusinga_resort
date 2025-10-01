@@ -64,7 +64,7 @@ const LuxuryResortWebsite = () => {
 
   return (
     <motion.div 
-      className="luxury-resort-website bg-gradient-to-b from-emerald-950 via-emerald-900 to-amber-900"
+      className="professional-resort-website bg-gradient-to-b from-gray-50 via-gray-100 to-gray-200"
       style={{ opacity }}
     >
       <Navigation 
