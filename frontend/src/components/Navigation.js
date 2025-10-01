@@ -34,8 +34,8 @@ const Navigation = ({ activeSection, onSectionClick }) => {
             {navItems.map((item) => (
               <motion.button
                 key={item.id}
-                className={`text-white hover:text-amber-400 transition-colors duration-300 relative px-4 py-2 ${
-                  activeSection === item.id ? 'text-amber-400' : ''
+                className={`text-gray-700 hover:text-blue-600 transition-colors duration-300 relative px-4 py-2 ${
+                  activeSection === item.id ? 'text-blue-600' : ''
                 }`}
                 onClick={() => onSectionClick(item.id)}
                 whileHover={{ y: -2 }}
@@ -44,7 +44,7 @@ const Navigation = ({ activeSection, onSectionClick }) => {
                 {item.label}
                 {activeSection === item.id && (
                   <motion.div
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-amber-400"
+                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600"
                     layoutId="activeNavIndicator"
                   />
                 )}
