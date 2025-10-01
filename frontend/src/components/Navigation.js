@@ -55,7 +55,7 @@ const Navigation = ({ activeSection, onSectionClick }) => {
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <motion.button 
-              className="text-white hover:text-amber-400"
+              className="text-gray-700 hover:text-blue-600"
               whileTap={{ scale: 0.95 }}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
