@@ -76,30 +76,30 @@ const Hero = ({ onPlanStayClick }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          <span className="inline-block text-amber-400 text-lg font-semibold tracking-wide uppercase mb-4">
-            Escape to Paradise
+          <span className="inline-block text-blue-600 text-lg font-semibold tracking-wide uppercase mb-4">
+            Professional Excellence
           </span>
         </motion.div>
 
         <motion.h1 
-          className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight"
+          className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-tight"
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 1.2 }}
           data-testid="hero-title"
         >
-          <span className="block text-amber-400">Rusinga</span>
-          <span className="block text-white text-5xl md:text-7xl">Six-Star Sanctuary</span>
+          <span className="block text-blue-600">Rusinga</span>
+          <span className="block text-gray-900 text-5xl md:text-7xl">Six-Star Sanctuary</span>
         </motion.h1>
 
         <motion.p 
-          className="text-xl md:text-2xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed"
+          className="text-xl md:text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed"
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.8, duration: 1 }}
         >
-          Experience unparalleled luxury on the pristine shores of Lake Victoria. 
-          Where East African elegance meets world-class hospitality in perfect harmony.
+          Experience professional hospitality services on the pristine shores of Lake Victoria. 
+          Where East African elegance meets world-class business hospitality in perfect harmony.
         </motion.p>
 
         <motion.div
