@@ -100,7 +100,7 @@ const LuxuryResortWebsite = () => {
       
       {/* Floating Concierge Button */}
       <motion.button
-        className="fixed bottom-8 right-8 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white p-4 rounded-full shadow-2xl z-50 transition-all duration-300 hover:scale-110"
+        className="fixed bottom-8 right-8 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white p-4 rounded-full shadow-lg z-50 transition-all duration-300 hover:scale-110"
         onClick={() => setShowConcierge(true)}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
