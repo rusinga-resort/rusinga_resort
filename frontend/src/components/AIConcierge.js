@@ -99,7 +99,7 @@ Respond helpfully and create an exclusive, premium experience through your commu
     setIsLoading(true);
 
     try {
-      const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+      const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
       
       // Create conversation history for context
       const conversationHistory = messages.map(msg => 
