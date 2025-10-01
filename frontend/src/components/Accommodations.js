@@ -68,7 +68,7 @@ const Accommodations = () => {
               onClick={() => setSelectedAccommodation(accommodation)}
               data-testid={`accommodation-${accommodation.id}`}
             >
-              <div className="bg-gradient-to-b from-emerald-800/50 to-emerald-900/50 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl hover:shadow-amber-500/20 transition-all duration-500 border border-amber-600/20">
+              <div className="bg-white backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 border border-gray-200">
                 {/* Image */}
                 <div className="relative overflow-hidden h-64">
                   <motion.img
