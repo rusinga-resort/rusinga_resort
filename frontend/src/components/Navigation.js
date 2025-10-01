@@ -11,7 +11,7 @@ const Navigation = ({ activeSection, onSectionClick }) => {
 
   return (
     <motion.nav 
-      className="fixed top-0 left-0 right-0 z-50 bg-emerald-950/90 backdrop-blur-lg border-b border-amber-600/20"
+      className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-b border-gray-200 shadow-sm"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8 }}
