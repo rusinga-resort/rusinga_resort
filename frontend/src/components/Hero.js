@@ -109,17 +109,17 @@ const Hero = ({ onPlanStayClick }) => {
           transition={{ delay: 1.2, duration: 1 }}
         >
           <motion.button 
-            className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-2xl transition-all duration-300 hover:shadow-amber-500/25"
+            className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg transition-all duration-300"
             onClick={onPlanStayClick}
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.98 }}
             data-testid="plan-stay-button"
           >
-            Plan Your Dream Stay
+            Plan Your Professional Stay
           </motion.button>
           
           <motion.button 
-            className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-emerald-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300"
+            className="border-2 border-gray-600 text-gray-700 hover:bg-gray-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300"
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.98 }}
             onClick={() => document.getElementById('accommodations')?.scrollIntoView({ behavior: 'smooth' })}
