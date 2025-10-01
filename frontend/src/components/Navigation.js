@@ -21,7 +21,7 @@ const Navigation = ({ activeSection, onSectionClick }) => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <motion.div 
-            className="text-2xl font-bold text-amber-400 cursor-pointer"
+            className="text-2xl font-bold text-gray-900 cursor-pointer"
             onClick={() => onSectionClick('home')}
             whileHover={{ scale: 1.05 }}
             data-testid="resort-logo"
