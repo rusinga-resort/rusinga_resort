@@ -46,7 +46,7 @@ const Hero = ({ onPlanStayClick }) => {
           animate={{ scale: 1 }}
           transition={{ duration: 2 }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/60 to-white/80"></div>
       </div>
 
       {/* Floating Decorative Elements */}
