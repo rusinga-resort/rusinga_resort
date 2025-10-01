@@ -7,9 +7,7 @@ const Hero = ({ onPlanStayClick }) => {
   const textRef = useRef(null);
 
   const heroImages = [
-    "https://customer-assets.emergentagent.com/job_hello-world-1288/artifacts/bwfwrg3x_Rusinga%20%2013.jpg",
-    "https://customer-assets.emergentagent.com/job_hello-world-1288/artifacts/kcrigu17_rusinga%201.jpg",
-    "https://customer-assets.emergentagent.com/job_hello-world-1288/artifacts/5qjujrxd_Rusinga%203.jpg"
+    "https://customer-assets.emergentagent.com/job_hello-world-1288/artifacts/jq74ix1l_image.png"
   ];
 
   useEffect(() => {
