@@ -35,7 +35,7 @@ const Accommodations = () => {
   ];
 
   return (
-    <div className="py-20 bg-gradient-to-b from-emerald-950 to-emerald-900" data-testid="accommodations-section">
+    <div className="py-20 bg-gradient-to-b from-gray-50 to-white" data-testid="accommodations-section">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <motion.div 
