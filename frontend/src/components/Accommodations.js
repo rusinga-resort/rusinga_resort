@@ -45,10 +45,10 @@ const Accommodations = () => {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-5xl font-bold text-white mb-6" data-testid="accommodations-title">
-            Luxury <span className="text-amber-400">Accommodations</span>
+          <h2 className="text-5xl font-bold text-gray-900 mb-6" data-testid="accommodations-title">
+            Professional <span className="text-blue-600">Accommodations</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Each accommodation is thoughtfully designed to provide the ultimate in comfort and elegance, 
             showcasing the natural beauty of Rusinga Island.
           </p>
